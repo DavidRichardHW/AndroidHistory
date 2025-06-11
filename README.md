@@ -1,14 +1,43 @@
 # Site ProjetoCordel
 
-Site criado com a finalidade de aplicar novos conhecimentos adquiridos em estudos.
+Este site foi desenvolvido como parte dos meus estudos em HTML e CSS. O objetivo principal foi colocar em prática diversos conceitos fundamentais de desenvolvimento web.
 
 
-Principais conhecimentos aplicados:
+• Tecnologias & Conceitos Aplicados •
 
-• Alinhamento de DIV.
+> Estruturação com HTML5
 
-• Aplicação de fontes locais.
+> Alinhamento de divs usando CSS
 
-• Configurações de responsividade.
+> Uso de ID
 
-• Uso de Variáveis.
+> Fontes locais personalizadas.
+
+> Criação de cabeçalhos e menus
+
+> Aplicação de imagens e vídeos (internos e externos)
+
+> Uso da tag <picture> com <source>
+
+> Pseudo-classes CSS 
+
+> Links internos e externos
+
+> Listas ordenadas e não ordenadas
+
+> Variáveis CSS (:root)
+
+> Responsividade com CSS
+
+> Uso de favicon
+
+> Uso de tags semânticas: strong, abbr, header, main, article, section, aside, footer
+
+
+• Estrutura •
+
+O projeto é composto por:
+
+> HTML  (estrutura do site)
+
+> CSS (estilização)
