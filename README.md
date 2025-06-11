@@ -47,4 +47,4 @@ Este site foi desenvolvido por mim [David "hawize" Richard](https://github.com/d
 
 ## Link do Site
 
-Acesse meu site no GitHub Pages clicando aqui e deixe sua opinião 😁: [ProjetoAndroid no GitHub Pages](https://davidrichardhw.github.io/ProjetoAndroid/)
+Acesse meu site no GitHub Pages clicando aqui e deixe sua opinião 😁: [ProjetoAndroid](https://davidrichardhw.github.io/ProjetoAndroid/) no github pages.
