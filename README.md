@@ -1,6 +1,6 @@
 # Site ProjetoAndroid
 
-Este site foi desenvolvido por mim [David "hawize" Richard] (https://github.com/davidrichardhw) como parte dos meus estudos em HTML e CSS. O objetivo principal foi colocar em prática alguns conceitos de desenvolvimento web aprendidos até o momento (28/05/2025).
+Este site foi desenvolvido por mim [David "hawize" Richard](https://github.com/davidrichardhw) como parte dos meus estudos em HTML e CSS. O objetivo principal foi colocar em prática alguns conceitos de desenvolvimento web aprendidos até o momento (28/05/2025).
 
 
 ## Tecnologias & Conceitos Aplicados
@@ -38,6 +38,13 @@ Este site foi desenvolvido por mim [David "hawize" Richard] (https://github.com/
 
 ### O projeto é composto por:
 
-- HTML  (estrutura do site)
+- index.html (HTML: Estrutura do site)
 
-- CSS (estilização)
+- estilo/style.css (CSS: Estilização)
+
+- midia (Pasta de imagens)
+
+
+## Link do Site
+
+Acesse meu site no GitHub Pages clicando aqui e deixe sua opinião 😁: [ProjetoAndroid no GitHub Pages](https://davidrichardhw.github.io/ProjetoAndroid/)
