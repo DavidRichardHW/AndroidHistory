@@ -1,4 +1,4 @@
-# Site ProjetoCordel
+# Site ProjetoAndroid
 
 Este site foi desenvolvido como parte dos meus estudos em HTML e CSS. O objetivo principal foi colocar em prática diversos conceitos fundamentais de desenvolvimento web.
 
