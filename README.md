@@ -1,6 +1,6 @@
 # Site [AndroidHistory](https://davidrichardhw.github.io/ProjetoAndroid/)
 
-Este site foi desenvolvido por mim [David "hawize" Richard](https://github.com/davidrichardhw) como parte dos meus estudos em HTML e CSS. O objetivo principal foi colocar em prática alguns conceitos de desenvolvimento web aprendidos até o momento (28/05/2025).
+Este site foi desenvolvido por mim [David "hawize" Richard](https://github.com/davidrichardhw) como parte dos meus estudos em HTML e CSS. O objetivo principal foi colocar em prática alguns conceitos de desenvolvimento web estudados.
 
 
 ## Tecnologias & Conceitos Aplicados
@@ -9,17 +9,15 @@ Este site foi desenvolvido por mim [David "hawize" Richard](https://github.com/d
 
 - Alinhamento de divs usando CSS
 
-- Uso de ID
+- Uso de ID e Classes
 
-- Fontes locais personalizadas.
+- Fontes locais personalizadas
 
 - Criação de cabeçalhos e menus
 
 - Aplicação de imagens e vídeos (internos e externos)
 
-- Uso da tag <picture> com <source>
-
-- Pseudo-classes CSS 
+- Pseudo-classes
 
 - Links internos e externos
 
