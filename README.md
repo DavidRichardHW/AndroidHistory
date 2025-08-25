@@ -1,4 +1,4 @@
-# Site [AndroidHistory](https://davidrichardhw.github.io/ProjetoAndroid/)
+# Site [AndroidHistory](https://davidrichardhw.github.io/AndroidHistory/)
 
 Este site foi desenvolvido por mim [David "hawize" Richard](https://github.com/davidrichardhw) como parte dos meus estudos em HTML e CSS. O objetivo principal foi colocar em prática alguns conceitos de desenvolvimento web estudados.
 
