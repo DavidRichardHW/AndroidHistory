@@ -1,4 +1,4 @@
-# Site [ProjetoAndroid](https://davidrichardhw.github.io/ProjetoAndroid/)
+# Site [AndroidHistory](https://davidrichardhw.github.io/ProjetoAndroid/)
 
 Este site foi desenvolvido por mim [David "hawize" Richard](https://github.com/davidrichardhw) como parte dos meus estudos em HTML e CSS. O objetivo principal foi colocar em prática alguns conceitos de desenvolvimento web aprendidos até o momento (28/05/2025).
 
@@ -36,7 +36,6 @@ Este site foi desenvolvido por mim [David "hawize" Richard](https://github.com/d
 
 ## Estrutura
 
-### O projeto é composto por:
 
 - index.html (HTML: Estrutura do site)
 
@@ -47,4 +46,4 @@ Este site foi desenvolvido por mim [David "hawize" Richard](https://github.com/d
 
 ## Link do Site
 
-Você pode acessar meu site no GitHub Pages clicando aqui > [ProjetoAndroid](https://davidrichardhw.github.io/ProjetoAndroid/) < Fique a vontade para deixar dicas e opiniões. 😁
+Você pode acessar meu site no GitHub Pages clicando aqui > [AndroidHistory](https://davidrichardhw.github.io/AndroidHistory/) < Fique a vontade para deixar dicas e opiniões. 😁
