@@ -11,183 +11,209 @@
 }
 :root{
     /* cores */
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #1a5c37;
-    --cor4: #063d1e;
+        --cor1: #83e1ad;
+        --cor2: #3ddc84;
+        --cor3: #1a5c37;
+        --cor4: #063d1e;
     /* /cores */
     /* fontes*/
-    --fonteglobal: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    --fontedestaque: "Bebas Neue", sans-serif;
-    --fonteextra: 'idroid', cursive;
+        --fonteglobal: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        --fontedestaque: "Bebas Neue", sans-serif;
+        --fonteextra: 'idroid', cursive;
     /* /fontes*/
 }
 /* body */
-
-body{
-    font-family: var(--fonteglobal);
-    background-color: var(--cor1);
-}
-p{text-indent: 2%;}
-a:hover{color: blue;}
-a.external::after{content: '🔗';}
-a.external::before{content: '🔗';}
-a{
-    font-size: large;
-    text-decoration: none;
-    border-radius: 10%;
-    background-color: var(--cor1);
-    color: var(--cor3);
-}
-strong{color: var(--cor3)}
+    body{
+        background-color: var(--cor1);
+        font-family: var(--fonteglobal);
+    }
+    p{text-indent: 2%;}
+    a:hover{color: blue;}
+    a.external::after{content: '🔗';}
+    a.external::before{content: '🔗';}
+    a{
+        background-color: var(--cor1);
+        border-radius: 10%;
+        color: var(--cor3);
+        font-size: large;
+        text-decoration: none;
+    }
+    strong{color: var(--cor3)}
 /* /body */
 /* header */
-header{
-    width: 100%;
-    min-width: 435px;
-    padding-top: 1px;
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
-    
-}
-header > h1{
-    text-align: center;
-    margin: 35px auto 15px;
-    max-width: 900px;
-    min-width: 435px;
-    text-shadow: 2px 2px 0px black;
-}
-header > h1 > a{
-    all: unset;
-    display: inline;
-    font-family: var(--fontedestaque);
-    color: white;
-    font-size: xx-large;
-    
-}
-header > h1 > a:hover{color: white;}
-header > p{
-    color: white;
-    margin: 20px 25%;
-    text-align: center;
-    font-size: small;
-    max-width: 900px;
-}
-/* menu */
-#menu{
-    background-color: var(--cor3);
-    min-width: 435px;
-}
-#menu > ul{
-    display: flex;
-    list-style: none;
-    gap: 10px;
-    color: white;
-    max-width: 900px;
-    min-width: 435px;
-}
-#menu > ul > li{
-    padding: 1%;
-    border-radius: 9%;
-}
-#menu > ul > li:hover{
-    background-image:linear-gradient(to right, var(--cor2), var(--cor3));
-    color: black;
-}
-/* /menu */
+    header{
+        background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+        min-width: 435px;
+        padding-top: 1px;
+        width: 100%;
+    }
+    header > h1{
+        /*box*/
+            margin: 35px auto 15px;
+            max-width: 900px;
+            min-width: 435px;
+
+        /*style*/
+            text-align: center;
+            text-shadow: 2px 2px 0px black;
+    }
+    header > h1 > a{
+        /*layout*/
+            all: unset;
+            display: inline;
+
+        /*type*/
+            font-family: var(--fontedestaque);
+            font-size: xx-large;
+            
+        /*sttle*/
+            color: white;
+    }
+    header > h1 > a:hover{color: white;}
+    header > p{
+        /*box*/
+            margin: 20px 25%;
+            max-width: 900px;
+
+        /*style*/
+            color: white;
+            text-align: center;
+
+        /*type*/
+            font-size: small;
+    }
+    /* menu */
+        #menu{
+            background-color: var(--cor3);
+            min-width: 435px;
+        }
+        #menu > ul{
+            /*layout*/
+                display: flex;
+                gap: 10px;
+
+            /*box*/
+                max-width: 900px;
+                min-width: 435px; 
+                
+            /*style*/
+                list-style: none;
+                color: white;
+        }
+        #menu > ul > li{
+            border-radius: 9%;
+            padding: 1%;
+        }
+        #menu > ul > li:hover{
+            background-image:linear-gradient(to right, var(--cor2), var(--cor3));
+            color: black;
+        }
+    /* /menu */
 /* /header */
 /* main */
-main{
-    width: 100%;
-    min-width: 435px;
-    max-width: 900px;
-    background-color: white;
-    margin: 0 auto;
-    border-radius: 2%;
-    
-}
-/* prin */
-#prin > section > h1{
-    font-family: var(--fonteextra);
-    padding: 3% 3% 0.5%;
-    font-size: x-large;
-    color: var(--cor3);
-}
-#prin > section > h2{
-    font-family: var(--fonteextra);
-    background-image: linear-gradient(to right, var(--cor2), white);
-    padding-left: 2%;
-    margin: 3% 3% 0.5% 0;
-    color: var(--cor4);
-}
-#prin > section > p{
-    text-align: justify;
-    padding: 1% 2.5%;
-}
-picture{
-    display: flex;
-    justify-content: center;
-    min-width: 435px;
-    max-width: 900px;
-}
-img{
-    display: block;
-    margin: auto auto;
-}
-div{background-color: var(--cor4);}
-iframe{
-    display: block;
-    padding: 1% 0%;
-    margin: auto auto;
-    min-width: 435px;
-    max-width: 900px;
-}
-/* /prin */
-/* sec */
-/* mais1 */
-aside{
-    margin: 2% 3%;
-    border-radius: 2%;
-    background-color: var(--cor4);
-    text-align: justify;
-}
-aside > h2{
-    margin: 0.5% 1%;
-    color: white;}
-aside > div{
-    background-color: var(--cor1);
-    border-radius: 0 2%;
-}
-aside > div > p{padding: 3%;}
-aside > div > ul{
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    list-style: '✓ ';
-    padding-left: 2%;
-    margin: 1% 8%;
-    max-width: 100%;
-}
-aside > div > ul > li{padding-left: 3%;}
-aside > div > ul > li > abbr{text-decoration: none;}
-/* /mais1*/
-/*mais2*/
-#sec > section{padding: 1% 2% 2%;}
-/*/mais2*/
-/* /sec */
+    main{
+        /*box*/
+            margin: 0 auto;
+            max-width: 900px;
+            min-width: 435px;
+            width: 100%;
+        
+        /*style*/
+            background-color: white;
+            border-radius: 2%;
+    }
+    /* prin */
+        #prin > section > h1{
+            color: var(--cor3);
+            font-family: var(--fonteextra);
+            font-size: x-large;
+            padding: 3% 3% 0.5%;
+        }
+        #prin > section > h2{
+            /*box*/
+                margin: 3% 3% 0.5% 0;
+                padding-left: 2%;
+
+            /*type*/
+                font-family: var(--fonteextra);
+            
+            /*style*/
+                background-image: linear-gradient(to right, var(--cor2), white);
+                color: var(--cor4);
+        }
+        #prin > section > p{
+            padding: 1% 2.5%;
+            text-align: justify;
+        }
+        picture{
+            display: flex;
+            justify-content: center;
+            max-width: 900px;
+            min-width: 435px;
+        }
+        img{
+            display: block;
+            margin: auto auto;
+        }
+        div{background-color: var(--cor4);}
+        iframe{
+            display: block;
+            padding: 1% 0%;
+            margin: auto auto;
+            max-width: 900px;
+            min-width: 435px;
+        }
+    /* /prin */
+    /* sec */
+        /* mais1 */
+            aside{
+                background-color: var(--cor4);
+                border-radius: 2%;
+                text-align: justify;
+                margin: 2% 3%;
+            }
+            aside > h2{
+                color: white;
+                margin: 0.5% 1%;
+            }
+            aside > div{
+                background-color: var(--cor1);
+                border-radius: 0 2%;
+            }
+            aside > div > p{padding: 3%;}
+            aside > div > ul{
+                columns: 2;
+                -webkit-columns: 2;
+                -moz-columns: 2;
+                list-style: '✓ ';
+                padding-left: 2%;
+                margin: 1% 8%;
+                max-width: 100%;
+            }
+            aside > div > ul > li{padding-left: 3%;}
+            aside > div > ul > li > abbr{text-decoration: none;}
+        /* /mais1*/
+        /*mais2*/
+            #sec > section{padding: 1% 2% 2%;}
+        /*/mais2*/
+    /* /sec */
 /* /main */
 /* footer */
-footer{
-    width: 100vw;
-    min-width: 435px;
-    background-color: var(--cor3);
-    color: yellow;
-    margin-top: 1%;
-    padding-top: 1%;
-    text-align: center;
-}
-footer > p{
-    max-width: 900px;
-    margin: auto auto;
-    padding-bottom: 1%;
-}
+    footer{
+        /*box*/
+            padding-top: 1%;
+            margin-top: 1%;
+            min-width: 435px;
+            width: 100vw;
+        
+        /*style*/
+            background-color: var(--cor3);
+            color: yellow;
+            text-align: center;
+    }
+    footer > p{
+        padding-bottom: 1%;
+        margin: auto auto;
+        max-width: 900px;
+    }
 /* /footer */
