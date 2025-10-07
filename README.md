@@ -16,7 +16,7 @@ Este site foi desenvolvido por mim [David "hawize" Richard](https://github.com/d
 
 
 
-## Estrutura:
+## Estrutura do projeto:
 
 - index.html (HTML: Estrutura do site)
 - estilo/style.css (CSS: Estilização)
